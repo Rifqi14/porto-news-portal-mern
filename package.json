@@ -11,6 +11,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "server": "yarn workspace @portal-berita/server start:dev",
+    "client:dev": "yarn workspace @portal-berita/client dev",
     "env": "cp .env.example .env",
     "clear": "rm -rf build/*"
   },
@@ -31,5 +32,13 @@
   },
   "dependencies": {
     "concurrently": "^7.6.0"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rifqi14/porto-news-portal-mern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rifqi14/porto-news-portal-mern/issues"
+  },
+  "homepage": "https://github.com/Rifqi14/porto-news-portal-mern#readme"
 }

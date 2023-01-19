@@ -23,3 +23,7 @@ build/
 
 # Stores VS Code versions used for testing VS Code extensions
 .vscode-test
+.vscode
+
+# Client
+.next

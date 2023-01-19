@@ -35,5 +35,13 @@
   },
   "_moduleAliases": {
     "@": "build"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Rifqi14/porto-news-portal-mern.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Rifqi14/porto-news-portal-mern/issues"
+  },
+  "homepage": "https://github.com/Rifqi14/porto-news-portal-mern#readme"
 }
