@@ -1,0 +1,39 @@
+{
+  "name": "@portal-berita/server",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "main": "index.js",
+  "scripts": {
+    "start:dev": "SET NODE_ENV=dev && nodemon",
+    "start": "node build/server.js",
+    "build": "tsc && tsc-alias",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/express": "^4.17.15",
+    "@types/morgan": "^1.9.4",
+    "@types/node": "^18.11.18",
+    "dotenv": "^16.0.3",
+    "nodemon": "^2.0.20",
+    "ts-node": "^10.9.1",
+    "tsconfig-paths": "^4.1.2",
+    "typescript": "^4.9.4"
+  },
+  "dependencies": {
+    "@portal-berita/server": "^1.0.0",
+    "@types/cors": "^2.8.13",
+    "chalk": "^4.1.2",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "helmet": "^6.0.1",
+    "mongodb": "^4.13.0",
+    "morgan": "^1.10.0"
+  },
+  "_moduleAliases": {
+    "@": "build"
+  }
+}
